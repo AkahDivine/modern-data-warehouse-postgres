@@ -1,4 +1,4 @@
-
+/*
 ================================================================================
 Data Dictionary: Gold Layer
 ================================================================================
@@ -11,7 +11,8 @@ dimension tables and fact tables.
 - Dimension tables store descriptive attributes (who, what, where).
 - Fact tables store measurable business events (how much, how many).
 
-This layer is designed for reporting, dashboards, and business intelligence use cases.
+This layer is designed for reporting, dashboards, and business intelligence use cases
+*/
 
 
 ### **1. gold.dim_customers**
