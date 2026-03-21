@@ -16,29 +16,22 @@ This layer is designed for reporting, dashboards, and business intelligence use 
 */
 ```
 
----
-Got it — you want **clean GitHub-ready tables (Markdown format)** like your image. Here’s your **Gold Layer Data Dictionary** formatted properly 👇
-
----
-
 ## **1. gold.dim_customers**
 
 **Purpose:** Stores enriched customer data with demographic and geographic attributes.
 
-| Column Name     | Data Type   | Description                                                                     |
-| --------------- | ----------- | ------------------------------------------------------------------------------- |
-| customer_key    | INT         | Surrogate key uniquely identifying each customer record in the dimension table. |
-| customer_id     | INT         | Unique numerical identifier assigned to each customer.                          |
-| customer_number | VARCHAR(50) | Alphanumeric identifier used for tracking and referencing.                      |
-| first_name      | VARCHAR(50) | Customer's first name.                                                          |
-| last_name       | VARCHAR(50) | Customer's last name or family name.                                            |
-| country         | VARCHAR(50) | Country of residence (e.g., 'Germany').                                         |
-| marital_status  | VARCHAR(50) | Marital status (e.g., 'Married', 'Single', 'n/a').                              |
-| gender          | VARCHAR(50) | Gender (e.g., 'Male', 'Female', 'n/a').                                         |
-| birthdate       | DATE        | Date of birth (YYYY-MM-DD).                                                     |
-| create_date     | TIMESTAMP   | Timestamp when the record was created.                                          |
-
----
+| Column Name     | Data Type   | Description |
+|-----------------|------------|-------------|
+| customer_key    | INT        | Surrogate key uniquely identifying each customer record in the dimension table. |
+| customer_id     | INT        | Unique numerical identifier assigned to each customer. |
+| customer_number | VARCHAR(50)| Alphanumeric identifier used for tracking and referencing. |
+| first_name      | VARCHAR(50)| Customer's first name. |
+| last_name       | VARCHAR(50)| Customer's last name or family name. |
+| country         | VARCHAR(50)| Country of residence (e.g., 'Germany'). |
+| marital_status  | VARCHAR(50)| Marital status (e.g., 'Married', 'Single', 'n/a'). |
+| gender          | VARCHAR(50)| Gender (e.g., 'Male', 'Female', 'n/a'). |
+| birthdate       | DATE       | Date of birth (YYYY-MM-DD). |
+| create_date     | TIMESTAMP  | Timestamp when the record was created. |
 
 ## **2. gold.dim_products**
 
