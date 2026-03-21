@@ -15,12 +15,6 @@ This layer is designed for reporting, dashboards, and business intelligence use 
 ================================================================================
 ```
 
-Yeah I see the issue — what you used is **plain text table**, not **GitHub Markdown table**, so it won’t render properly.
-
-GitHub only formats tables correctly when you use **this exact syntax**:
-
----
-
 
 ### **1. gold.dim_customers**
 
