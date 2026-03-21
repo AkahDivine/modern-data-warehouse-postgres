@@ -12,8 +12,6 @@ dimension tables and fact tables.
 - Fact tables store measurable business events (how much, how many).
 
 This layer is designed for reporting, dashboards, and business intelligence use cases.
-================================================================================
-```
 
 
 ### **1. gold.dim_customers**
